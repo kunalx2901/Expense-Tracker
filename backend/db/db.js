@@ -4,7 +4,7 @@ require("dotenv").config()
 async function db(){
 
     try{
-        await mongoose.connect("mongodb+srv://kunalx2901:kunal2901$@expense-tracker.sxzg71m.mongodb.net/user-income")
+        await mongoose.connect(process.env.MONGO_URL)
         console.log("MongoDB connected")
     }
     catch(err){
