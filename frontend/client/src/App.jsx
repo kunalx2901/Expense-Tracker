@@ -1,13 +1,14 @@
+import Navigation from "./Components/Navigation"
+import Orb from "./Components/Orb"
 
 
 function App() {
 
   return (
     <>
-    <h1>
-      hello world
-      
-    </h1>
+    <Orb/>
+    <Navigation/>
+    <h1 className="text-cyan-500">hello world</h1>
     </>
   )
 }
