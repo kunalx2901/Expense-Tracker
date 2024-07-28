@@ -8,7 +8,6 @@ function App() {
     <>
     <Orb/>
     <Navigation/>
-    <h1 className="text-cyan-500">hello world</h1>
     </>
   )
 }

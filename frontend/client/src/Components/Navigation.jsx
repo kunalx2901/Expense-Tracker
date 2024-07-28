@@ -6,9 +6,11 @@ function Navigation() {
     <div>
         <img className= "h-20 w-20 rounded-full"src={avatar} alt=""/>
         <div>
+          <ul>
             {menuItems.map((items)=>{
-                return items.icon
+               return <li key={items.id}> {items.icon} <span>{items.title}</span></li>
             })}
+          </ul>
         </div>
 
     </div>
